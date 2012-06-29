@@ -1,0 +1,81 @@
+what,kind,bundleId,bundleVersion,description,time
+locale,sysinfo,,,"en_US",1341000203181
+processors,sysinfo,,,"4",1341000203181
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1341000203181
+java.runtime.version,sysinfo,,,"1.6.0_29-b11-402-11D50",1341000203181
+java.specification.name,sysinfo,,,"Java Platform API Specification",1341000203181
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1341000203181
+java.specification.version,sysinfo,,,"1.6",1341000203181
+java.vendor,sysinfo,,,"Apple Inc.",1341000203181
+java.version,sysinfo,,,"1.6.0_29",1341000203181
+java.vm.info,sysinfo,,,"mixed mode",1341000203181
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1341000203181
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1341000203181
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1341000203181
+java.vm.specification.version,sysinfo,,,"1.0",1341000203181
+java.vm.vendor,sysinfo,,,"Apple Inc.",1341000203181
+java.vm.version,sysinfo,,,"20.4-b02-402",1341000203181
+started,bundle,org.eclipse.m2e.usagedata,1.0.200.20111228-1245,"org.eclipse.m2e.usagedata",1341000203190
+started,bundle,org.eclipse.wb.discovery.ui,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.ui",1341000203657
+started,bundle,org.eclipse.dltk.core,3.0.1.v20110823,"org.eclipse.dltk.core",1341000203764
+started,bundle,org.eclipse.debug.core,3.7.0.v20110518,"org.eclipse.debug.core",1341000203827
+started,bundle,org.eclipse.dltk.launching,3.0.0.v20110423,"org.eclipse.dltk.launching",1341000203839
+started,bundle,org.eclipse.dltk.ui,3.0.1.v20110823,"org.eclipse.dltk.ui",1341000203845
+started,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201109151620,"org.eclipse.cdt.codan.ui.cxx",1341000203847
+started,bundle,net.sf.eclipsecs.core,5.5.0.201111092104,"net.sf.eclipsecs.core",1341000203873
+started,bundle,net.sf.eclipsecs.ui,5.5.0.201111092104,"net.sf.eclipsecs.ui",1341000203875
+started,bundle,org.eclipse.cdt.make.core,7.1.1.201109151620,"org.eclipse.cdt.make.core",1341000203973
+started,bundle,org.eclipse.cdt.managedbuilder.core,8.0.1.201109151620,"org.eclipse.cdt.managedbuilder.core",1341000204039
+started,bundle,org.eclipse.cdt.core,5.3.1.201109151620,"org.eclipse.cdt.core",1341000204139
+started,bundle,org.eclipse.ui.navigator,3.5.100.v20110809-2227,"org.eclipse.ui.navigator",1341000204231
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1341000204294
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r371_v20110824-0800,"org.eclipse.ltk.core.refactoring",1341000204298
+started,bundle,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui",1341000204393
+started,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201109151620,"org.eclipse.cdt.codan.core.cxx",1341000204395
+started,bundle,org.eclipse.cdt.codan.core,2.0.0.201109151620,"org.eclipse.cdt.codan.core",1341000204400
+started,bundle,org.eclipse.cdt.make.ui,7.1.1.201109151620,"org.eclipse.cdt.make.ui",1341000204405
+started,bundle,org.eclipse.cdt.codan.checkers,1.0.0.201109151620,"org.eclipse.cdt.codan.checkers",1341000204419
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341000204460
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341000206461
+opened,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1341000207662
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341000211447
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1341000212091
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1341000212099
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1341000212345
+stopped,bundle,org.eclipse.cdt,8.0.0.201109151620,"org.eclipse.cdt",1341000212348
+stopped,bundle,org.eclipse.cdt.doc.user,5.1.0.201109151620,"org.eclipse.cdt.doc.user",1341000212351
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1341000212353
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1341000212355
+stopped,bundle,org.eclipse.help.webapp,3.6.0.v20110518,"org.eclipse.help.webapp",1341000212358
+stopped,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1341000212358
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1341000212360
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1341000212361
+stopped,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1341000212361
+stopped,bundle,de.loskutov.BytecodeOutline,2.4.0,"de.loskutov.BytecodeOutline",1341000212362
+stopped,bundle,org.eclipse.help.base,3.6.1.v201109091335,"org.eclipse.help.base",1341000212366
+stopped,bundle,org.eclipse.equinox.http.jetty,2.0.100.v20110502,"org.eclipse.equinox.http.jetty",1341000212368
+stopped,bundle,org.eclipse.m2e.discovery,1.0.200.20111228-1245,"org.eclipse.m2e.discovery",1341000212370
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.200.20111228-1245,"org.eclipse.m2e.refactoring",1341000212372
+stopped,bundle,org.eclipse.m2e.editor,1.0.200.20111228-1245,"org.eclipse.m2e.editor",1341000212375
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.200.20111228-1245,"org.eclipse.m2e.editor.xml",1341000212378
+stopped,bundle,org.eclipse.m2e.jdt,1.0.200.20111228-1245,"org.eclipse.m2e.jdt",1341000212379
+stopped,bundle,org.eclipse.m2e.launching,1.0.200.20111228-1245,"org.eclipse.m2e.launching",1341000212381
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.200.20111228-1245,"org.eclipse.m2e.usagedata",1341000212381
+stopped,bundle,org.eclipse.m2e.core.ui,1.0.200.20111228-1245,"org.eclipse.m2e.core.ui",1341000212384
+stopped,bundle,org.eclipse.m2e.core,1.0.200.20111228-1245,"org.eclipse.m2e.core",1341000212387
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.6.0.v20110608-1400,"org.eclipse.mylyn.ide.ant",1341000212388
+stopped,bundle,org.eclipse.ant.ui,3.5.100.v20110510,"org.eclipse.ant.ui",1341000212392
+stopped,bundle,org.eclipse.ant.launching,1.0.100.v20110506,"org.eclipse.ant.launching",1341000212394
+stopped,bundle,org.eclipse.egit.mylyn.ui,1.1.0.201109151100-r,"org.eclipse.egit.mylyn.ui",1341000212395
+stopped,bundle,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui",1341000212399
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk",1341000212402
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1341000212403
+stopped,bundle,org.eclipse.mylyn.java.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.ui",1341000212405
+stopped,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1341000212410
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.300.v20110305-1450,"org.eclipse.jdt.apt.ui",1341000212414
+stopped,bundle,org.deved.antlride.integration.jdt,2.1.2.201108281759,"org.deved.antlride.integration.jdt",1341000212416
+stopped,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1341000212418
+stopped,bundle,org.eclipse.wb.swing.databinding,1.1.0.r37x201109091143,"org.eclipse.wb.swing.databinding",1341000212422
+stopped,bundle,org.eclipse.wb.core.databinding,1.1.0.r37x201109091012,"org.eclipse.wb.core.databinding",1341000212425
+stopped,bundle,org.eclipse.wb.swing.FormLayout,1.1.0.r37x201109091143,"org.eclipse.wb.swing.FormLayout",1341000212428
+stopped,bundle,org.eclipse.wb.swing.MigLayout,1.1.0.r37x201109091143,"org.eclipse.wb.swing.MigLayout",1341000212431

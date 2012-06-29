@@ -50,10 +50,76 @@ def html2fmt(html, target_format):
     #   html = html.replace('<pre lang="xml">', '<pre lang="xml"><![CDATA[')
     #   html = html.replace('</pre>', ']]></pre>')
     if target_format == 'html':
-        return html
+        return process_html(html)
     else:
         return html2text_file(html, None)
 
+
+def process_html(html):
+    print '\n>>> html begin'
+    lines = html.splitlines()
+    target_html = []
+    # flagging if we are inside a <em> tag
+    # this is usually a chunk of lyrics so no p tag.
+    is_in_em = False
+    for line in lines:
+        if not line.strip():
+            # skip empty lines
+            if is_in_em:
+                line += unicode('<br>')
+            target_html.append(line)
+        elif not line.startswith('<') and not is_in_em:
+            if line.find('Lyric') < 0:
+                # add p tag for hanging text except for multi-line em tag
+                line = unicode('<p>') + line
+                line += unicode('</p>')
+            else:
+                line += unicode('<br>')
+                is_in_em = True
+                line += unicode('<br>')
+
+            target_html.append(line)
+        elif line.startswith('<!--more-->'):
+            # discard this more tag causes problem when deploy
+            continue
+        elif line.find('<em>') >= 0 or line.find('Lyric') >= 0:
+            # flagging if detect em tag or text Lyric
+            line += unicode('<br>')
+            target_html.append(line)
+            is_in_em = True
+        elif line.find('</em>') >= 0:
+            target_html.append(line)
+            is_in_em = False
+        elif is_in_em or line.find('</strong>') >= 0 or line.find('</b>') >= 0:
+            # append <br> if it is lyric or at the end of strong tag line
+            line += unicode('<br>')
+            line = replace_resource_urls(line)
+            target_html.append(line)
+        else:
+            line = replace_resource_urls(line)
+            target_html.append(line)
+
+    target_html = '\n'.join(target_html)
+    print '>>> target_html'
+    print target_html
+    print '>>> html end\n'
+    return target_html
+
+def replace_resource_urls(line):
+    if line.find('http://') < 0:
+        return line
+
+    newline = unicode()
+    if line.find('www.wzhang.org') >= 0:
+       newline = line.replace('www.wzhang.org/wp-content/uploads','wzhang.org.s3.amazonaws.com/images')
+    elif line.find('wzhang.org') >= 0:
+       newline = line.replace('wzhang.org/wp-content/uploads','wzhang.org.s3.amazonaws.com/images')
+    elif line.find('www.shaziyegeming.net') >= 0:
+       newline = line.replace('www.shaziyegeming.net/wp-content/uploads','wzhang.org.s3.amazonaws.com/images')
+    else:
+        newline = line
+
+    return newline
 
 def parse_wp_xml(file):
     parser = ns_tracker_tree_builder()

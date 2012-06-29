@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1331102264636_3" label="jython" name="jython"/>
+<workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1337377670278_5" label="test" name="test"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1306357305559_0" label="Window Working Set" name="Aggregate for window 1306357305557"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1323217425313_1" label="Window Working Set" name="Aggregate for window 1323217425313"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1323307592339_2" label="Window Working Set" name="Aggregate for window 1323307592339"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1335308760389_4" label="Window Working Set" name="Aggregate for window 1335308760389"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1337380346067_6" label="Window Working Set" name="Aggregate for window 1337380346067"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1340863493366_7" label="Window Working Set" name="Aggregate for window 1340863493366"/>
+</workingSetManager>
