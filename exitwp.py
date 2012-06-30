@@ -56,7 +56,6 @@ def html2fmt(html, target_format):
 
 
 def process_html(html):
-    print '\n>>> html begin'
     lines = html.splitlines()
     target_html = []
     # flagging if we are inside a <em> tag
@@ -100,9 +99,6 @@ def process_html(html):
             target_html.append(line)
 
     target_html = '\n'.join(target_html)
-    print '>>> target_html'
-    print target_html
-    print '>>> html end\n'
     return target_html
 
 def replace_resource_urls(line):
@@ -376,6 +372,7 @@ def write_jekyll(data, target_format):
             out.write('---\n')
             if len(yaml_header) > 0:
                 out.write(toyaml(yaml_header))
+                out.write('comments: true\n')
             if len(tax_out) > 0:
                 out.write(toyaml(tax_out))
 
